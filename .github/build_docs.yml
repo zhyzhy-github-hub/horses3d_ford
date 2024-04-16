@@ -1,5 +1,3 @@
-name: Build Documentation
-
 on:
   push:
     branches:
@@ -20,3 +18,9 @@ jobs:
       - name: Generate Documentation
         run: |
           ford doc/ford/ford-project-file.md
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./doc/ford/ford_output
