@@ -20,8 +20,7 @@ jobs:
           ford doc/ford/ford-project-file.md
 
       - name: Deploy Documentation
-        if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages 
           folder: ./doc/ford/ford_output
