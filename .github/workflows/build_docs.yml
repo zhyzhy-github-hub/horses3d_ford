@@ -56,10 +56,10 @@ jobs:
 
 
     - name: Build documentation
-      run: ford ./doc/ford/ford-project-file.md
+      run: ford doc/ford-project-file.md
 
     - name: Deploy Documentation
       uses: JamesIves/github-pages-deploy-action@v4.4.1
       with:
         branch: gh-pages 
-        folder: ./doc/ford/ford_output
+        folder: ./doc
