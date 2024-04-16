@@ -2,7 +2,7 @@
 project: HORSES3D ford documentation
 summary: 
 src_dir: ../../Solver/src
-output_dir: ./ford_output
+output_dir: ../
 project_github: https://github.com/loganoz/horses3d
 project_website: 
 summary: 
