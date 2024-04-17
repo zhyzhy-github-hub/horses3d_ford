@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="Documentation for HORSES3D ford documentation">
+      <meta name="description" content="HORSES3D High-Order (DG) Spectral Element Solver">
     <meta name="author" content="HORSES3D developers" >
     <link rel="icon" href="../favicon.png">
 
-    <title>GenericLinSolver_t &ndash; HORSES3D ford documentation </title>
+    <title>GenericLinSolver_t &ndash; HORSES3D </title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -28,7 +28,7 @@
     <div class="container-fluid mb-sm-4 mb-xl-2">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="../index.html">HORSES3D ford documentation </a>
+          <a class="navbar-brand" href="../index.html">HORSES3D </a>
           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar"
                   aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon">
@@ -36,7 +36,7 @@
 
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="../page/index.html">Doc</a></li>
+                <li class="nav-item"><a class="nav-link" href="../page/index.html">User Documentation</a></li>
                   <li class="nav-item">
                     <a class="nav-link" href="../lists/files.html">Source Files</a>
                   </li>
@@ -149,9 +149,9 @@
       </a>
       <div id="boundprocs-0" class="collapse">
         <div class="list-group list-group-flush">
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-construct~8">construct</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-construct~15">construct</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setrhsvalue~2">SetRHSValue</a>
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setrhsvalues~2">SetRHSValues</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setrhsvalues">SetRHSValues</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setrhs~2">SetRHS</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-solve~2">solve</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-getxvalue~2">GetXValue</a>
@@ -159,10 +159,10 @@
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-destroy~2">destroy</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setoperatordt~2">SetOperatorDt</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-resetoperatordt~2">ReSetOperatorDt</a>
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-assemblyrhs~2">AssemblyRHS</a>
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setjacobian">SetJacobian</a>
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-getxnorm">Getxnorm</a>
-            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-getrnorm">Getrnorm</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-assemblyrhs">AssemblyRHS</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-setjacobian~2">SetJacobian</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-getxnorm~2">Getxnorm</a>
+            <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-getrnorm~2">Getrnorm</a>
             <a class="list-group-item" href="../type/genericlinsolver_t.html#boundprocedure-computeanextstep">ComputeANextStep</a>
         </div>
       </div>
@@ -343,7 +343,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-construct~8"></span>
+      <span class="anchor" id="boundprocedure-construct~15"></span>
       <h3>
           procedure, public ::
   <strong>construct</strong> => Construct
@@ -569,7 +569,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-setrhsvalues~2"></span>
+      <span class="anchor" id="boundprocedure-setrhsvalues"></span>
       <h3>
           procedure, public ::
   <strong>SetRHSValues</strong>
@@ -1238,7 +1238,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-assemblyrhs~2"></span>
+      <span class="anchor" id="boundprocedure-assemblyrhs"></span>
       <h3>
           procedure, public ::
   <strong>AssemblyRHS</strong>
@@ -1291,7 +1291,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-setjacobian"></span>
+      <span class="anchor" id="boundprocedure-setjacobian~2"></span>
       <h3>
           procedure, public ::
   <strong>SetJacobian</strong>
@@ -1359,7 +1359,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-getxnorm"></span>
+      <span class="anchor" id="boundprocedure-getxnorm~2"></span>
       <h3>
           procedure, public ::
   <strong>Getxnorm</strong>
@@ -1432,7 +1432,7 @@
           <div class="row">
               <div class="card mt-3">
     <div class="card-header codesum">
-      <span class="anchor" id="boundprocedure-getrnorm"></span>
+      <span class="anchor" id="boundprocedure-getrnorm~2"></span>
       <h3>
           procedure, public ::
   <strong>Getrnorm</strong>
@@ -1558,7 +1558,7 @@
         <div class="row justify-content-between">
           <div class="col">
             <p>
-              HORSES3D ford documentation
+              HORSES3D
  was developed by HORSES3D developers<br>              &copy; 2024 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 </p>
           </div>
