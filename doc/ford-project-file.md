@@ -14,7 +14,7 @@ fpp_extensions: fpp
 preprocess: true
 macro: HAS_DECREMENT
 predocmark: >
-docmark_alt: #
+docmark_alt: 
 predocmark_alt: <
 display: public
          protected
